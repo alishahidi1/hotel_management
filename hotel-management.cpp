@@ -34,6 +34,23 @@ int main(){
     cout<<"\n\t Quantity of items we have:";
     cout<<"\n Rooms available:"<<endl;
     cin>>Qrooms;
-    cout<<"\n Quantity of pasta :";
+    cout<<"\n Quantity of pasta:";
+    cin>>Qpasta;
+    cout<<"\n Quantity of burger:";
+    cin>>Qburger;
+    cout<<"\n Quantity of noodles:";
+    cin>>Qnoodles;
+    cout<<"\n Quantity of shake:";
+    cin>>Qshake;
+    cout<<"\n Quantity of chicken-roll:";
+    cin>>Qchicken;
 
+    cout<<"\n\t\t\t Please select from the menu options:";
+    cout<<"\n\n1) Rooms";
+    cout<<"\n2) Pasta";
+    cout<<"\n3) Burger";
+    cout<<"\n4) Noodles";
+    cout<<"\n5) Shake";
+    cout<<"\n6) Chicken-roll";
+    cout<<"\n7) Information regarding sales & collection";
 }
